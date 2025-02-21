@@ -1,0 +1,43 @@
+.navbar {
+  width: 60vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  
+  z-index: 10;
+  height: 40px;
+  transition: background-color 0.2s ease-in-out;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin: 0 auto;
+  position: static;
+}
+
+.navbar .navbar-collapse {
+  display: flex;
+  justify-content: center; /* Centers the items in the navbar */
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  justify-content: center; /* Centers the nav links */
+  align-items: center;
+  gap: 20px; /* Adds spacing between the links */
+}
+
+.navbar-link {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  color: rgb(205, 204, 204) !important; /* Sets default link color */
+}
+
+.navbar-link:hover {
+  color: white !important; /* Changes color on hover */
+}
+
+.navbar-link .dropdown-toggle {
+  color: rgb(205, 204, 204) !important; /* Sets dropdown color */
+}
+
+.navbar-link .dropdown-toggle:hover {
+  color: #f0f0f0 !important; /* Lightens color on hover */
+}

@@ -1,0 +1,112 @@
+.blog-container {
+  height: 100vh;
+  width: 100vw;
+  /* overflow-y: auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  /* .blog-container::-webkit-scrollbar {
+    display: none;
+  }
+   */
+
+.blog-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    /* margin: 2rem auto; */
+    border-radius: 12px;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* transition: opacity 0.2s ease-in-out; */
+    /* opacity: 0%; */
+    /* transition: opacity 0.5s ease ;transform 0.5s ease; */
+    /* transform: translateY(50px); */
+}
+
+/* .blog-item.visible {
+    opacity: 1 !important;
+    transform: translateY(0); /* Animate into position */
+
+.blog-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: auto;
+}
+
+/* Custom Modal Styling */
+.modal-content {
+    background-color: #1818186b !important;
+    backdrop-filter: blur(24px) !important;
+    color: rgba(255, 255, 255, 0.822) !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.modal-body {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 1rem !important;
+}
+
+.modal-body > * {
+    max-width: 65vw !important;
+    margin: 1rem 0 !important;
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.modal-header .btn-close {
+    color: white !important;
+    filter: invert(1) !important;
+}
+
+/* Style the close button */
+.btn-secondary {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.822) !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.pdf-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(24px);
+}
+
+.pdf-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Override PDF viewer background */
+.pdf-frame::backdrop {
+    background-color: transparent;
+}

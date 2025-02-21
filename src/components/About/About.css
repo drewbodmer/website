@@ -1,0 +1,44 @@
+.about-background {
+  width: 50vw;
+  min-height: 40vh;
+  margin-bottom: 0vh;
+  position: relative;
+  margin-top: 3vh;
+  padding-bottom: 3vh;
+  border-radius: 8px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.about-background:hover {
+  background-color: #474747d7;
+}
+
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: bold;
+  font-size: 2vh;
+  color: #eeeeee;
+  text-align: center;
+}
+
+.aboutheader {
+  font-family: Libre;
+  font-size: calc(2vh + 2vw);
+}
+
+.aboutbody {
+  font-family: Libre;
+  font-size: calc(1.5vh + 0.5vw);
+  font-weight: 100;
+  font-style: normal;
+  color: #dfdfdf;
+}
+
+.socials-links {
+  font-size: calc(0.1vh + 1.2vw);
+  font-weight: 200;
+  font-style: bold;
+  color: #d0d0d0;
+}
+

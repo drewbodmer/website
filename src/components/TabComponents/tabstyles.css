@@ -1,0 +1,85 @@
+.card {
+  display: flex;
+  width: "18rem";
+}
+
+.card:hover {
+  background-color: aliceblue;
+}
+
+.modal-open {
+  padding-right: 0 !important;
+  top: 0px;
+  right: 100px;
+  overflow: visible;
+}
+
+.modal-header {
+  max-height: 50px;
+}
+
+.modal-pdf-body {
+  top: 0px;
+}
+
+.modal-resume-body {
+  top: 0px;
+  height: 90vh;
+  max-height: 100vh;
+}
+
+.card-pretty {
+  box-shadow: 2px 2px 10px rgb(81, 81, 81);
+  background-color: #efeeee !important;
+}
+
+.card-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: bold;
+  font-size: 1rem !important;
+  color: #222222;
+}
+
+.my-masonry-grid {
+  padding-left: 20px;
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  /* height: calc(100vh - 60px); Account for padding */
+  /* overflow-y: auto; */
+}
+
+
+.grid-item {
+  width: 25vw;
+  margin-bottom: 20px;
+}
+
+.my-masonry-grid_column {
+  width: 25vw;
+  /* gutter size */
+  /* background-clip: padding-box; */
+}
+
+ul>li {
+  display: auto;
+  margin: auto;
+  justify-content: left;
+}
+
+ul {
+  display: auto;
+  justify-content: left;
+}
+
+.pdf-container {
+  height: 85vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(24px);
+}

@@ -1,0 +1,104 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* overflow-y: auto; */
+}
+
+html, body {
+  /* overflow: hidden; */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Home {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0d52dd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.center-container {
+  display: flex;
+  place-items: center; 
+  justify-content: center; 
+  text-align: center;
+}
+
+
+.App-content {
+  flex: 1;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background {
+  display: block;
+  overflow: hidden;
+  transition: filter 0.5s ease-in-out;
+  background-size: contain;   /* or 'contain' if you prefer the entire image visible */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  /* background: url("./data/newhome1.jpg") no-repeat center center fixed; */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+
+/* .background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 0.5s ease-in-out;
+} */
+
+
+.modal-open {
+  overflow-y: inherit;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
